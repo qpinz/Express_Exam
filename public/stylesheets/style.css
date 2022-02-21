@@ -1,0 +1,22 @@
+button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #c1c1c2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.item-button {
+  margin: 0px 20px;
+}
+.item {
+  display: flex;
+  position: absolute;
+  right: 60px;
+  top: 30px;
+}
+
+.page-button {
+   margin: 20px 10px;
+}
