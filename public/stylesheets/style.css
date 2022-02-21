@@ -5,6 +5,7 @@ button {
   background-color: #c1c1c2;
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .item-button {
