@@ -6,7 +6,6 @@ const port = 3000
 // require handlebars in the project
 const { engine } = require('express-handlebars')
 app.engine('handlebars', engine({ defaultLayout: 'main' }))
-
 app.set('view engine', 'handlebars')
 
 app.use(express.static('public'))
@@ -17,15 +16,15 @@ app.get('/', (req, res) => {
 })
 
 app.get('/about', (req, res) => {
-  res.render('index-A')
+  res.render('index-About')
 })
 
 app.get('/portfolio', (req, res) => {
-  res.render('index-P')
+  res.render('index-Portfolio')
 })
 
 app.get('/contact', (req, res) => {
-  res.render('index-C')
+  res.render('index-Contact')
 })
 
 // start and listen on the Express server
